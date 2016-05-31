@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title></title>
+<meta charset="uft-8"/>
+</head>
+
+<script type="text/javascript">
+	
+	var Gato = new gato(" bola de pelos");
+	var GatoDos = new gato(" minino");
+
+	function gato(nombre)
+	{
+		this.nombre = nombre;
+		this.maulla = function() {
+			alert(this.nombre + " miauuu")
+		};
+	};
+	alert("El gato de llama" + Gato.nombre);
+	alert("El segundo gato se llama" + GatoDos.nombre);
+	Gato.maulla();
+	
+</script>
+
+
+
+<body>
+	
+</body>
+
+</html>

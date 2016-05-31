@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+	<meta charset="utf-8"/>
+	<script type="text/javascript">
+
+	/* Opción 01:
+	var arreglo = new Array();
+
+	arreglo.push(3);
+	arreglo.push("Hola Mundo");
+
+	console.log(arreglo[0]) */
+
+
+	/* Opción 02:
+	arreglo sin inicializar con push uno a uno.
+	Con length nos muestra el número total de elementos del arreglo, su longitud
+
+	var arreglo = [1,2,3,4,5];
+	console.log(arreglo.length)
+
+	*/
+
+	/*Opción 03: 
+
+	var arreglo = [1,"Hola", "Mundo"];
+
+	for(i=0;i<arreglo.length;i++)
+		console.log(arreglo[i]);
+	*/
+
+
+	//Opción 04:
+	//Arreglos Bidimensionales (arreglos dentro de arreglos)
+
+	//var arreglo = [[1,2,3],["a","b","c"]]
+
+	/*for(i=0;i<arreglo[1].length;i++)
+		console.log(arreglo[1][i]);*/
+
+	/*for(i=0;i<arreglo[0].length;i++)
+		console.log(arreglo[0][i]);*/
+
+
+
+	//Opción 05:
+	//Convertir arreglos en cadenas
+
+	/*var arreglo = [[1,2,3],["a","b","c"]] 
+
+	var cadena = arreglo [1].join("");
+
+	console.log(cadena)*/
+
+	//Opción 06:
+	//Convertir cadenas en arreglos
+
+	/*var cadena = "abc";
+	arreglo = cadena.split("");
+	console.log(arreglo[1]); */
+
+	//imprimirá: "b" de índice [1]
+
+
+	//Opción 06:
+	//Variación ejemplo:
+
+	var cadena = "a-bc";
+	arreglo = cadena.split("-"); /*cada vez que encuentre un guión, lo va a cortar en ese guión y lo va a guardar como un elemento*/
+	console.log(arreglo[1]); 
+	//imprimirá: "bc"índice [1]
+
+
+
+
+
+	</script>
+
+<body>
+	
+</body>
+
+</html>
